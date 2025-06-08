@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(11, 100, 152, 0.5)50%,rgba(11, 100, 152, 0.5)50%), url(hero.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.nav{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 200px;
+    cursor: pointer;
+}
+
+.nav ul li{
+    list-style: none;
+    font-family: 'Segoe UI';
+    display: inline-block;
+    margin: 20px;
+
+}
+
+.nav ul li a{
+    text-decoration: solid;
+    color: white;
+    font-size: large;
+}
+ul li a:hover{
+    color: #00bfff;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+
+}
+.content h1{
+    font-size: 100px;
+    color: #10c3ff;
+    font-family: 'Segoe UI';
+    margin-top: 80px;
+}
+
+.content h2{
+    font-size: 60px;
+    font-family: 'Segoe UI';
+    margin-top: -25px;
+}
+
+.content p{
+    margin: 20px auto;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 25px;
+    font-family: 'Segoe UI';
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white;
+}
+.navbar-nav .nav-item.active .nav-link
+{
+    color: #00bfff;
+    font-weight: bolder;
+}
+.navbar-nav .nav-item:hover .nav-link {
+    color: #00bfff;
+}
+h1{
+    color: #00bfff;
+}
